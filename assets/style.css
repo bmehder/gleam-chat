@@ -1,0 +1,8 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@layer base {
+  :root { color-scheme: dark; font-family: ui-sans-serif, system-ui, sans-serif; background: #212121; }
+  body { margin: 0; overflow: hidden; }
+  lustre-server-component { display: block; }
+  button, summary, select { cursor: pointer; }
+}

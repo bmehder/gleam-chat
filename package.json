@@ -1,0 +1,12 @@
+{
+  "name": "gleam-chat-styles",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i assets/style.css -o priv/static/style.css --minify",
+    "watch:css": "tailwindcss -i assets/style.css -o priv/static/style.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.0",
+    "tailwindcss": "4.3.0"
+  }
+}
